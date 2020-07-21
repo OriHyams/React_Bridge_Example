@@ -1,0 +1,12 @@
+{
+  "name": "bridge_example",
+  "displayName": "bridge_example",
+  "expo": {
+    "name": "bridge_example",
+    "slug": "bridge_example",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
