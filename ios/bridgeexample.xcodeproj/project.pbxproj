@@ -13,6 +13,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		96905EF65AED1B983A6B3ABC /* libPods-bridgeexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-bridgeexample.a */; };
+		B147577E24C710B4004E09F3 /* BridgeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147577D24C710B4004E09F3 /* BridgeModule.swift */; };
+		B147578024C71166004E09F3 /* BridgeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B147577F24C71166004E09F3 /* BridgeModule.m */; };
+		B147578424C7154C004E09F3 /* NativeExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147578224C7154C004E09F3 /* NativeExampleViewController.swift */; };
+		B147578524C7154C004E09F3 /* NativeExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B147578324C7154C004E09F3 /* NativeExampleViewController.xib */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +33,11 @@
 		6C2E3173556A471DD304B334 /* Pods-bridgeexample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeexample.debug.xcconfig"; path = "Target Support Files/Pods-bridgeexample/Pods-bridgeexample.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-bridgeexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeexample.release.xcconfig"; path = "Target Support Files/Pods-bridgeexample/Pods-bridgeexample.release.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = bridgeexample/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B147577C24C710B3004E09F3 /* bridgeexample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridgeexample-Bridging-Header.h"; sourceTree = "<group>"; };
+		B147577D24C710B4004E09F3 /* BridgeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeModule.swift; sourceTree = "<group>"; };
+		B147577F24C71166004E09F3 /* BridgeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeModule.m; sourceTree = "<group>"; };
+		B147578224C7154C004E09F3 /* NativeExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeExampleViewController.swift; sourceTree = "<group>"; };
+		B147578324C7154C004E09F3 /* NativeExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeExampleViewController.xib; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -49,6 +58,7 @@
 		13B07FAE1A68108700A75B9A /* bridgeexample */ = {
 			isa = PBXGroup;
 			children = (
+				B147578124C71528004E09F3 /* View Controllers */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -58,6 +68,9 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
+				B147577D24C710B4004E09F3 /* BridgeModule.swift */,
+				B147577C24C710B3004E09F3 /* bridgeexample-Bridging-Header.h */,
+				B147577F24C71166004E09F3 /* BridgeModule.m */,
 			);
 			name = bridgeexample;
 			sourceTree = "<group>";
@@ -99,6 +112,15 @@
 				13B07F961A680F5B00A75B9A /* bridgeexample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B147578124C71528004E09F3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B147578224C7154C004E09F3 /* NativeExampleViewController.swift */,
+				B147578324C7154C004E09F3 /* NativeExampleViewController.xib */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -151,7 +173,7 @@
 				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -178,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B147578524C7154C004E09F3 /* NativeExampleViewController.xib in Resources */,
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
@@ -250,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B147578024C71166004E09F3 /* BridgeModule.m in Sources */,
+				B147578424C7154C004E09F3 /* NativeExampleViewController.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				B147577E24C710B4004E09F3 /* BridgeModule.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.bridgeexample;
 				PRODUCT_NAME = bridgeexample;
+				SWIFT_OBJC_BRIDGING_HEADER = "bridgeexample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -315,6 +342,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.bridgeexample;
 				PRODUCT_NAME = bridgeexample;
+				SWIFT_OBJC_BRIDGING_HEADER = "bridgeexample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
