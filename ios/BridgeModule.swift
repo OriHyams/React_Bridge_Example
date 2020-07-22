@@ -17,10 +17,10 @@ class BridgeModule: RCTViewManager {
   }
   
   override func view() -> UIView! {
-      let button = UIButton.init(type: UIButton.ButtonType.system)
-      button.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+      let button = UIButton()
       button.titleLabel?.font = UIFont.systemFont(ofSize: 20)
-      button.setTitle("This is native button", for: .normal)
+      button.setTitle("Native button", for: .normal)
+      button.setTitleColor(UIColor.blue, for: .normal)
       return button
   }
   
