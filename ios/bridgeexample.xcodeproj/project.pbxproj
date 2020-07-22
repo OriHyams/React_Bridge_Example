@@ -11,8 +11,8 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		261075BA59A39A18E8BB8EBD /* libPods-bridgeexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3515775DFEF3E4EB3985DF2 /* libPods-bridgeexample.a */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		96905EF65AED1B983A6B3ABC /* libPods-bridgeexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-bridgeexample.a */; };
 		B147577E24C710B4004E09F3 /* BridgeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147577D24C710B4004E09F3 /* BridgeModule.swift */; };
 		B147578024C71166004E09F3 /* BridgeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B147577F24C71166004E09F3 /* BridgeModule.m */; };
 		B147578424C7154C004E09F3 /* NativeExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147578224C7154C004E09F3 /* NativeExampleViewController.swift */; };
@@ -29,16 +29,16 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = bridgeexample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = bridgeexample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = bridgeexample/main.m; sourceTree = "<group>"; };
-		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-bridgeexample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bridgeexample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C2E3173556A471DD304B334 /* Pods-bridgeexample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeexample.debug.xcconfig"; path = "Target Support Files/Pods-bridgeexample/Pods-bridgeexample.debug.xcconfig"; sourceTree = "<group>"; };
-		7A4D352CD337FB3A3BF06240 /* Pods-bridgeexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeexample.release.xcconfig"; path = "Target Support Files/Pods-bridgeexample/Pods-bridgeexample.release.xcconfig"; sourceTree = "<group>"; };
+		8CB321DDA6CEF4B563F93CC8 /* Pods-bridgeexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeexample.release.xcconfig"; path = "Target Support Files/Pods-bridgeexample/Pods-bridgeexample.release.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = bridgeexample/SplashScreen.storyboard; sourceTree = "<group>"; };
 		B147577C24C710B3004E09F3 /* bridgeexample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridgeexample-Bridging-Header.h"; sourceTree = "<group>"; };
 		B147577D24C710B4004E09F3 /* BridgeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeModule.swift; sourceTree = "<group>"; };
 		B147577F24C71166004E09F3 /* BridgeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeModule.m; sourceTree = "<group>"; };
 		B147578224C7154C004E09F3 /* NativeExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeExampleViewController.swift; sourceTree = "<group>"; };
 		B147578324C7154C004E09F3 /* NativeExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeExampleViewController.xib; sourceTree = "<group>"; };
+		B1EB8C6B1CB94CFF09904AEC /* Pods-bridgeexample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridgeexample.debug.xcconfig"; path = "Target Support Files/Pods-bridgeexample/Pods-bridgeexample.debug.xcconfig"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		C3515775DFEF3E4EB3985DF2 /* libPods-bridgeexample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bridgeexample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96905EF65AED1B983A6B3ABC /* libPods-bridgeexample.a in Frameworks */,
+				261075BA59A39A18E8BB8EBD /* libPods-bridgeexample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +80,7 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-bridgeexample.a */,
+				C3515775DFEF3E4EB3985DF2 /* libPods-bridgeexample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,8 +135,8 @@
 		D65327D7A22EEC0BE12398D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C2E3173556A471DD304B334 /* Pods-bridgeexample.debug.xcconfig */,
-				7A4D352CD337FB3A3BF06240 /* Pods-bridgeexample.release.xcconfig */,
+				B1EB8C6B1CB94CFF09904AEC /* Pods-bridgeexample.debug.xcconfig */,
+				8CB321DDA6CEF4B563F93CC8 /* Pods-bridgeexample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "bridgeexample" */;
 			buildPhases = (
-				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
+				18FB3F9C0FA0A92C6744FB65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -225,7 +225,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n../node_modules/expo-updates/scripts/create-manifest-ios.sh\n";
 		};
-		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
+		18FB3F9C0FA0A92C6744FB65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,7 +298,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C2E3173556A471DD304B334 /* Pods-bridgeexample.debug.xcconfig */;
+			baseConfigurationReference = B1EB8C6B1CB94CFF09904AEC /* Pods-bridgeexample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -327,7 +327,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A4D352CD337FB3A3BF06240 /* Pods-bridgeexample.release.xcconfig */;
+			baseConfigurationReference = 8CB321DDA6CEF4B563F93CC8 /* Pods-bridgeexample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
